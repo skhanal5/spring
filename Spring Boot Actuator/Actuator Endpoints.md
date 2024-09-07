@@ -1,0 +1,11 @@
+### Actuator Endpoints
+- Comes with useful endpoints like:
+	- `/health`
+	- `/trace`
+	- `/shutdown`
+	- `/metrics/{name}`
+- Three types of endpoints:
+	- configuration
+	- metrics
+	- misc
+- To make use of this, add the `spring-boot-starter-actuator` dependency
