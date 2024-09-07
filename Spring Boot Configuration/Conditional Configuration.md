@@ -4,6 +4,7 @@
 	- filtered by conditional configuration
 ### Condition Interface
 - Implement this interface and override the matches() method
+* from *Spring Boot in Action:
 ```
 package readinglist;
 import org.springframework.context.annotation.Condition;
