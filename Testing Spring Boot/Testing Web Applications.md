@@ -4,6 +4,7 @@
 	- How do you assert the endpoint was triggered?
 	- How do you assert the form fields are bound correctly?
 	- etc.
+- Follows up on [[Integration Testing]]
 ### Spring Mock MVC
  * Mocks the servlet container allowing you to test controllers
  * Use `MockMvcBuilders` with the following builder methods
@@ -15,8 +16,9 @@
 		* Used for integration tests
 ### WebAppContextSetup
 * To use `webAppContextSetup()`, you need to pass in a `WebApplicationContext`
-* Use `@WebAppConfiguration` and `@Autowire` an instance of it
+* Use `@WebAppConfiguration` and `@Autowired` an instance of it
 	* This annotation creates a `WebApplicationContext` bean
+	* This context is more specific than the general `ApplicationContext` 
 * Then initialize the `MockMvc` using the builder
 * From there you can write something like the following (from *Spring Boot in Action*):
 ```

@@ -159,6 +159,7 @@
   "lastOpenFiles": [
     "Testing Spring Boot/Testing Web Applications.md",
     "Testing Spring Boot/Testing Web Security.md",
+    "Testing Spring Boot/Integration Testing.md",
     "Spring Boot Actuator/Java Management Extensions (JMX).md",
     "TODO.md",
     "README.md",
@@ -175,7 +176,6 @@
     "Spring JPA",
     "Spring Boot Actuator",
     "Spring Boot Maven/Spring Maven.md",
-    "Testing Spring Boot/Integration Testing.md",
     "Starting a new Spring Boot Project/Application Class.md",
     "Starting a new Spring Boot Project/Application Test Class.md",
     "Spring Boot Configuration/Conditional Configuration.md",
