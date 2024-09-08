@@ -15,7 +15,8 @@
 		* Used for integration tests
 ### WebAppContextSetup
 * To use `webAppContextSetup()`, you need to pass in a `WebApplicationContext`
-* Use `@WebAppConfiguration` and `@Autowrite` an instance of it
+* Use `@WebAppConfiguration` and `@Autowire` an instance of it
+	* This annotation creates a `WebApplicationContext` bean
 * Then initialize the `MockMvc` using the builder
 * From there you can write something like the following (from *Spring Boot in Action*):
 ```

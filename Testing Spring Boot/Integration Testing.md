@@ -7,7 +7,7 @@
 - Given a test class, use the following annotations: 
 	- `@RunWith(SpringJunit4ClassRunner.class)` 
 		- enable integration test
-	- `@Cont extConfiguration(class=Clazz.class`
+	- `@ContextConfiguration(class=Clazz.class`
 		- Specifies how to load the application context
 - What is missing?
 	- It doesn't load everything
