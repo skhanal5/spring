@@ -7,4 +7,4 @@
 	* passes if the application context loads
 ### @SpringBootTest
 * Sets up a mock environment for testing web endpoints
-	* The real server is NOT started
+	* The real server is NOT started by default
