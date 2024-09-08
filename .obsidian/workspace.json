@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring Boot Actuator/Customizing Actuator.md",
+                "file": "TODO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Boot Actuator/Customizing Actuator.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring Boot Actuator/Customizing Actuator.md",
+                "file": "TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring Boot Actuator/Customizing Actuator.md"
+                "file": "TODO.md"
               }
             }
           },
@@ -157,10 +157,11 @@
   },
   "active": "dddfb3207c8f6374",
   "lastOpenFiles": [
-    "Spring Boot Actuator/Java Management Extensions (JMX).md",
-    "Spring Boot Actuator/Customizing Actuator.md",
-    "Spring Boot Actuator/Actuator.md",
     "README.md",
+    "TODO.md",
+    "Spring Boot Actuator/Customizing Actuator.md",
+    "Spring Boot Actuator/Java Management Extensions (JMX).md",
+    "Spring Boot Actuator/Actuator.md",
     "Spring Boot Actuator/Actuator Remote Shell.md",
     "Spring Boot Actuator/Runtime Metrics.md",
     "Spring Boot Actuator/Configuration Endpoints.md",
@@ -182,7 +183,6 @@
     "Spring Boot Configuration/Configuration Properties.md",
     "Spring Boot Configuration/Spring Security.md",
     "General Spring Boot/Servlets.md",
-    "General Spring Boot/Misconceptions.md",
-    "TODO.md"
+    "General Spring Boot/Misconceptions.md"
   ]
 }
