@@ -1,4 +1,4 @@
-#### JpaRepository
+### JpaRepository
 - You can define an interface that extends `JPARepository<query type, response type>`
 - The Spring Data JPA will give you can implementation of this interface at runtime
 	- It contains many methods, each of which can be used with `query type`

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Starting a new Spring Boot Project/Application Test Class.md",
+                "file": "Spring JPA/Spring JPA.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Starting a new Spring Boot Project/Application Test Class.md",
+                "file": "Spring JPA/Spring JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Starting a new Spring Boot Project/Application Test Class.md",
+                "file": "Spring JPA/Spring JPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Starting a new Spring Boot Project/Application Test Class.md"
+                "file": "Spring JPA/Spring JPA.md"
               }
             }
           },
@@ -168,10 +168,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68a8a4bdce266b7a",
+  "active": "eb4e82ed96c4cf55",
   "lastOpenFiles": [
-    "Testing Spring Boot/@SpringBootTest Annotation.md",
     "Starting a new Spring Boot Project/Application Test Class.md",
+    "Testing Spring Boot/@SpringBootTest Annotation.md",
     "Testing Spring Boot/Integration Testing.md",
     "Testing Spring Boot/Slices.md",
     "Testing Spring Boot/Testing Web Applications.md",
