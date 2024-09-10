@@ -1,9 +1,17 @@
-### JpaRepository
-- You can define an interface that extends `JPARepository<query type, response type>`
-- The Spring Data JPA will give you can implementation of this interface at runtime
-	- It contains many methods, each of which can be used with `query type`
-### JPAEntity
-* This is essentially a POJO that represents a JPA Entity
-	* You must annotate this class with `@Entity`
-* You define the fields that represents the Entity and any getter/setters
-	* You can use the `@Id` annotation on a field to represent the ID for that Entity
+### Repository
+- `Repository` is the central interface in Spring Data
+	- `CrudRepository` and `ListCrudRepository` extends `Repository` and offer more granular functionality
+- Formal definition is `Repository<T, ID>` where T is the domain class and ID is the identifier type for that domain class
+- Technology specific abstractions include
+	- `JpaRepository` and `MongoRepository` both of which extend `CrudRepository`
+- There also exist:
+	- Reactive versions of Repository's
+	- Paginated Repository's
+	-  not covering all that in here
+### Selectively Exposing CRUD methods
+* You can define a separate base Repository interface that extends `Repository<T,ID>` that is annotated with `@NoRepositoryBean`
+	* Expose all the methods you need
+* Then in the actual Repository you want to use, extend the base Repository
+### Multiple Spring Data Modules
+- For Spring Data to figure out which repository for which persisted technology, you need to not mix and match or have ambiguous repository definition
+	- This is contingent on the repository definition and the domain class
