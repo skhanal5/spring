@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4ea292b1d3509c32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spring Services/@Service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring JPA/Spring JPA.md",
+                "file": "Spring Services/@Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring JPA/Spring JPA.md",
+                "file": "Spring Services/@Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring JPA/Spring JPA.md"
+                "file": "Spring Services/@Service.md"
               }
             }
           },
@@ -168,8 +180,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb4e82ed96c4cf55",
+  "active": "4ea292b1d3509c32",
   "lastOpenFiles": [
+    "Spring Services/Service Architecture.md",
+    "Spring Services/@Service.md",
+    "README.md",
+    "TODO.md",
+    "Spring Services",
+    "Spring JPA/Spring JPA.md",
     "Starting a new Spring Boot Project/Application Test Class.md",
     "Testing Spring Boot/@SpringBootTest Annotation.md",
     "Testing Spring Boot/Integration Testing.md",
@@ -178,17 +196,13 @@
     "Testing Spring Boot/Testing Web Security.md",
     "Testing Spring Boot/Web Integration Test.md",
     "Testing Spring Boot/Mocking and Spying Beans.md",
-    "README.md",
     "Spring Boot Actuator/Java Management Extensions (JMX).md",
-    "TODO.md",
     "Spring Boot Actuator/Customizing Actuator.md",
     "Spring Boot Actuator/Actuator.md",
     "Spring Boot Actuator/Actuator Remote Shell.md",
     "Spring Boot Actuator/Runtime Metrics.md",
     "Spring Boot Actuator/Configuration Endpoints.md",
     "Spring Boot Actuator/Actuator Endpoints.md",
-    "Untitled",
-    "Spring JPA/Spring JPA.md",
     "Spring Boot Maven",
     "Spring JPA",
     "Spring Boot Actuator",
@@ -197,8 +211,6 @@
     "Spring Boot Configuration/Conditional Configuration.md",
     "Spring Boot Configuration/Configuration Profiles.md",
     "Spring Boot Configuration/Configuration Properties.md",
-    "Spring Boot Configuration/Spring Security.md",
-    "General Spring Boot/Servlets.md",
-    "General Spring Boot/Misconceptions.md"
+    "Spring Boot Configuration/Spring Security.md"
   ]
 }
