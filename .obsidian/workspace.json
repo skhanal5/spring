@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "378eab099d18bb74",
+        "id": "8c0eacde187a9c82",
         "type": "tabs",
         "children": [
           {
-            "id": "4ea292b1d3509c32",
+            "id": "dd76da90e0682edf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Spring JPA/Querying.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Spring JPA/Querying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Spring JPA/Querying.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Spring JPA/Querying.md"
               }
             }
           },
@@ -155,37 +155,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68a8a4bdce266b7a",
+  "active": "dd76da90e0682edf",
   "lastOpenFiles": [
-    "Spring JPA/Spring JPA.md",
-    "Testing Spring Boot/Integration Testing.md",
-    "README.md",
-    "Spring Services/@Service.md",
-    "Spring Services/Service Architecture.md",
     "TODO.md",
+    "README.md",
+    "Spring JPA/Querying.md",
+    "Spring JPA/Spring JPA.md",
+    "Testing Spring Boot/Testing Repositories.md",
+    "Spring Boot Configuration/Spring Security.md",
+    "Spring Boot Configuration/Configuration Properties.md",
+    "Spring Boot Configuration/Configuration Profiles.md",
+    "Spring Boot Configuration/Conditional Configuration.md",
+    "Spring Services/Service Architecture.md",
+    "Spring Services/@Service.md",
+    "Spring Boot Maven/Spring Maven.md",
+    "Testing Spring Boot/Testing Web Applications.md",
+    "Testing Spring Boot/Slices.md",
+    "Testing Spring Boot/Mocking and Spying Beans.md",
+    "Testing Spring Boot/Integration Testing.md",
+    "Spring Boot Actuator/Java Management Extensions (JMX).md",
+    "Spring Boot Actuator/Runtime Metrics.md",
+    "Spring Boot Actuator/Customizing Actuator.md",
+    "Spring Boot Actuator/Actuator Remote Shell.md",
+    "Spring Boot Actuator/Actuator Endpoints.md",
+    "Spring Boot Actuator/Actuator.md",
+    "General Spring Boot/Misconceptions.md",
+    "General Spring Boot/Servlets.md",
     "Spring Services",
     "Starting a new Spring Boot Project/Application Test Class.md",
     "Testing Spring Boot/@SpringBootTest Annotation.md",
-    "Testing Spring Boot/Slices.md",
-    "Testing Spring Boot/Testing Web Applications.md",
-    "Testing Spring Boot/Testing Web Security.md",
-    "Testing Spring Boot/Web Integration Test.md",
-    "Testing Spring Boot/Mocking and Spying Beans.md",
-    "Spring Boot Actuator/Java Management Extensions (JMX).md",
-    "Spring Boot Actuator/Customizing Actuator.md",
-    "Spring Boot Actuator/Actuator.md",
-    "Spring Boot Actuator/Actuator Remote Shell.md",
-    "Spring Boot Actuator/Runtime Metrics.md",
-    "Spring Boot Actuator/Configuration Endpoints.md",
-    "Spring Boot Actuator/Actuator Endpoints.md",
     "Spring Boot Maven",
     "Spring JPA",
-    "Spring Boot Actuator",
-    "Spring Boot Maven/Spring Maven.md",
-    "Starting a new Spring Boot Project/Application Class.md",
-    "Spring Boot Configuration/Conditional Configuration.md",
-    "Spring Boot Configuration/Configuration Profiles.md",
-    "Spring Boot Configuration/Configuration Properties.md",
-    "Spring Boot Configuration/Spring Security.md"
+    "Spring Boot Actuator"
   ]
 }

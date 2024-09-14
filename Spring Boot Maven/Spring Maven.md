@@ -4,7 +4,6 @@
 	- Reduces # of dependencies you need to include
 ### Overriding starter transitive dependencies
 * Can exclude dependencies in the starters with `<exclusions><exclusions/>`
-* Can 
 ### spring-boot-maven-plugin
 - packages the project as an executable uber-JAR
 	- meaning all dependencies are packaged together

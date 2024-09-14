@@ -1,6 +1,4 @@
-- Service Interfaces
-	- Impl
-- Security
+* Security
 - Dispatch
 - Servlets
 - Websockets
