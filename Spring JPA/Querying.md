@@ -57,6 +57,8 @@
 * `AllIgnoreCase`
 	* ignore case for all properties
 * `OrderBy`
+### Query Annotation
+* `@Query` allows you to pass in a specific query that you want to use for that particular method
 ### Resources
 1. [Repository query keywords](https://docs.spring.io/spring-data/commons/reference/repositories/query-keywords-reference.html#appendix.query.method.subject)
 

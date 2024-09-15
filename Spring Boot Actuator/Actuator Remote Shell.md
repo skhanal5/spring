@@ -14,7 +14,7 @@
 - `beans`
 	- similar to `/beans` in [[Configuration Endpoints]]
 - `metrics`
-	- similar to /metrics in [[Runtime Metrics]] BUT provides data in real time (neat)
+	- similar to /metrics in [[Metric Endpoints]] BUT provides data in real time (neat)
 - `endpoint`
 	- lets you view endpoints with `list`
 	- can invoke endpoints with `invoke [endpoint]`
