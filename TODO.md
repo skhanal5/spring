@@ -1,5 +1,6 @@
 * Security
-- Dispatch
-- Servlets
-- Websockets
-- Keystore stuff
+* JPA
+* Actuator
+* Servlets/Containers/Tomcat/Netty/Jetty
+* Keystore & Certs
+* Reactive Web

@@ -2,11 +2,18 @@
 * Annotating a class with `@Entity` defines the domain class/object for JPA to use in its Repository
 * It is a POJO that you want to persist in a DB
 * Typically an Entity is a table, and each instance of an Entity is a row
-### @Entity
+#### @Entity
 * JPA assumes that if you have a class annotated with `@Entity` without `@Table` then this Entity maps to a table with the same name as the class name
-### @Table
+##### @Table
 * If your table name does not correspond to the name of the entity name, you can use `@Table` to pass in the name of the table
-### Defining Fields of an Entity
+#### Constructor Requirements
+*  JPA requires a no-argument default constructor in an Entity class
+* This is because JPA creates an instance of the entity class using Reflection
+#### Other Requirements
+* Class cannot be declared `final`
+* Methods/persisted instance variables cannot be declared `final`
+* Persisted instance variables cannot be `public`
+### Defining the Fields of an Entity
 #### @Id
 * `@Id` is used to tell JPA that this is that object's id
 * It is used as a primary key
