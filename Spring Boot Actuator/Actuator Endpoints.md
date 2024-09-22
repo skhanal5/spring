@@ -1,4 +1,4 @@
-### Actuator Endpoints
+### About
 - Comes with useful endpoints like:
 	- `/health`
 	- `/trace`
@@ -9,35 +9,81 @@
 	- metrics
 	- misc
 - To make use of this, add the `spring-boot-starter-actuator` dependency
-### Configuration Endpoints
-* `/beans` allows you to see every bean in the application context and other beans it injected
-	* This is useful in case you want to know how beans are wired up in the auto-configuration
-	* Provides data in JSON format
-		* bean = name
-		* resource = location of the class
-		* dependencies = which other beans are injected with it
-		* scope = self explanatory
-		* type = Java's type
-* `/autoconfig` tells you which of the [[[Conditional Configuration]] passed and failed
-	* Provides JSON data:
-		* positive matches and negative matches
-* `/env` tells you all environment properties available to the application
-	* To hide sensitive information, any property with password or key is hidden
-	* Comes with `/env/{name}` endpoint
-* `/mappings` provides a mapping of controllers to endpoints
-### Metric Endpoitns
-* `/metrics` gives you a bunch of runtime metrics
-	* related to garbage collection
-	* heap available vs used memory
-	* number of classes loaded
-	* amount of free memory
-	* http related
-		* `counter.status` is the http status code
-		* `gauge.response` is used to gauge http responses
-			* e.g. how long it took to serve a request
-	* can fetch a specific metric with `/metric/{metricname}`
-* `/trace` allows you to trace web request
-	* you can see which method, path, headers, request/response
-* `/dump` gives you thread snapshot
-* `/health` endpoint is a basic health check endpoint...
-	* alb/fargate
+- By default all endpoints are enabled except for `shutdown`
+### Configuring Endpoints
+
+#### Available Endpoints by Default
+* To prevent all endpoints from being enabled by default use `management.endpoints.enabled-by-default=false`
+#### Enabling/Disabling An Endpoint
+* Use `management.endpoint.<endpoint-id>.enabled = <boolean>` property to enable/disable it
+* Disabling an endpoint will remove it from the entire application context
+#### Exposing Endpoints over a Transport
+* Only the `health` endpoint is exposed over HTTP and JMX
+* For JMX: 
+	* `management.endpoints.jmx.exposure.[include/exclude]=[endpoint ids]`
+* For html:
+	* `management.endpoints.web.exposure.[include/exclude]=[endpoint ids]`
+#### Actuator Discovery Page
+* Contains links to all endpoints
+* to disable: `propertiesmanagement.endpoints.web.discover.enabled=false`
+### Security
+#### Customizing Security
+* By default, all endpoints besides `health` are secured Spring Boot if the following conditions are true;
+	* Spring Security is on the classpath
+	* There are no other `SecurityFilterChain` beans
+* If you define your own `SecurityFilterChain` bean, then it is your responsibility to handle access to the actuator endpoints
+#### Example
+```java
+import org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.web.SecurityFilterChain;
+
+import static org.springframework.security.config.Customizer.withDefaults;
+
+@Configuration(proxyBeanMethods = false)
+public class MySecurityConfiguration {
+
+	@Bean
+	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+		http.securityMatcher(EndpointRequest.toAnyEndpoint());
+		http.authorizeHttpRequests((requests) -> requests.anyRequest().hasRole("ENDPOINT_ADMIN"));
+		http.httpBasic(withDefaults());
+		return http.build();
+	}
+
+}
+```
+
+#### Allowing Unauthenticated Access
+* Set this property: `management.endpoints.web.exposure.include=*`
+* If Spring Security is also present, do this in addition:
+```java
+import org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.web.SecurityFilterChain;
+
+@Configuration(proxyBeanMethods = false)
+public class MySecurityConfiguration {
+
+	@Bean
+	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+		http.securityMatcher(EndpointRequest.toAnyEndpoint());
+		http.authorizeHttpRequests((requests) -> requests.anyRequest().permitAll());
+		return http.build();
+	}
+}
+```
+
+### Implementing Endpoints
+* Define a `@Bean` with `@Endpoint` 
+	* Any methods annotated with:
+		* `@ReadOperation`
+		* `@WriteOperation`
+		* `@DeleteOperation`
+	* Are exposed via JMX/HTML
+* Alternatively:
+	* Use `@JmxEndpoint` or `@WebEndpoint` in place of `@Endpoint`

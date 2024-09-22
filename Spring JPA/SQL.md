@@ -1,3 +1,4 @@
+**Note**: You will need the appropriate database driver dependency for this to work
 ### DataSources
 * `javax.sql.DataSource` interface sets up DB connections 
 	* Requires a URL and credentials
