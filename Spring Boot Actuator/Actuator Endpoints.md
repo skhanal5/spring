@@ -26,6 +26,12 @@
 #### Actuator Discovery Page
 * Contains links to all endpoints
 * to disable: `propertiesmanagement.endpoints.web.discover.enabled=false`
+### Configuring Actuator Path
+#### Setting the Base Path
+* Set `managment.endpoints.web.base-path=[/path]`
+#### Remapping the Path of Existing Endpoints
+* Set `management.endpoints.web.path-mapping.[endpoint-name]=[new endpoint path name]`
+	* Turns `/actuator/old-path` to `/actuator/new-path`
 ### Security
 #### Customizing Security
 * By default, all endpoints besides `health` are secured Spring Boot if the following conditions are true;
