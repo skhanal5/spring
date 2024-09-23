@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8c0eacde187a9c82",
+        "id": "7c098009ef03d867",
         "type": "tabs",
         "children": [
           {
-            "id": "dd76da90e0682edf",
+            "id": "d0ba5c06ea8ff5dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring Boot Actuator/Actuator.md",
+                "file": "Resources/Resource List.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring Boot Actuator/Actuator.md",
+                "file": "Resources/Resource List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring Boot Actuator/Actuator.md",
+                "file": "Resources/Resource List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring Boot Actuator/Actuator.md"
+                "file": "Resources/Resource List.md"
               }
             }
           },
@@ -155,34 +155,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd76da90e0682edf",
+  "active": "d0ba5c06ea8ff5dc",
   "lastOpenFiles": [
-    "Spring Boot Actuator/Actuator Endpoints.md",
-    "Spring Boot Actuator/Java Management Extensions (JMX).md",
+    "Resources/Resource List.md",
     "TODO.md",
+    "README.md",
+    "Resources",
+    "Spring Services/Service Architecture.md",
+    "Spring Services/@Service.md",
+    "Spring Boot Actuator/Actuator Endpoints.md",
+    "Spring Security",
+    "Spring Boot Actuator/Java Management Extensions (JMX).md",
+    "Spring Boot Maven/Spring Maven.md",
+    "Spring Boot Actuator/Actuator.md",
     "Spring Boot Actuator/Actuator Remote Shell.md",
     "Spring Boot Actuator/Customizing Actuator.md",
-    "Spring Boot Actuator/Actuator.md",
     "Spring JPA/Entity.md",
     "Spring JPA/Querying.md",
     "Spring JPA/Spring JPA.md",
     "Spring JPA/SQL.md",
     "Spring Boot Actuator/Configuration Endpoints.md",
     "Spring Boot Actuator/Metric Endpoints.md",
-    "Spring Boot Maven/Spring Maven.md",
-    "README.md",
     "Testing Spring Boot/Testing Repositories.md",
     "Spring Boot Configuration/Spring Security.md",
     "Spring Boot Configuration/Configuration Properties.md",
     "Spring Boot Configuration/Configuration Profiles.md",
     "Spring Boot Configuration/Conditional Configuration.md",
-    "Spring Services/Service Architecture.md",
-    "Spring Services/@Service.md",
     "Testing Spring Boot/Testing Web Applications.md",
     "Testing Spring Boot/Slices.md",
     "Testing Spring Boot/Mocking and Spying Beans.md",
     "Testing Spring Boot/Integration Testing.md",
-    "General Spring Boot/Misconceptions.md",
     "Spring Services",
     "Spring Boot Maven",
     "Spring JPA",
