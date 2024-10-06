@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Resource List.md",
+                "file": "Spring IoC/Java Based Configuration/@Configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "configuration",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Resource List.md",
+                "file": "Spring IoC/Java Based Configuration/@Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Resource List.md",
+                "file": "Spring IoC/Java Based Configuration/@Configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Resource List.md"
+                "file": "Spring IoC/Java Based Configuration/@Configuration.md"
               }
             }
           },
@@ -157,12 +157,28 @@
   },
   "active": "d0ba5c06ea8ff5dc",
   "lastOpenFiles": [
+    "Spring IoC/Java Based Configuration/@Bean.md",
+    "Spring IoC/Beans.md",
+    "Spring IoC/Java Based Configuration/Application Context.md",
+    "Spring IoC/Java Based Configuration/@Configuration.md",
+    "Spring IoC/Java Based Configuration",
+    "Spring IoC/Field Injection.md",
+    "Spring IoC/Dependency Injection.md",
+    "Spring IoC/General Info.md",
+    "Spring IoC/ApplicationContext.md",
+    "Pasted image 20241006131911.png",
+    "container-magic.png",
+    "Pasted image 20241006131913.png",
     "Resources/Resource List.md",
+    "Spring IoC",
     "TODO.md",
     "README.md",
+    "Testing Spring Boot/Testing Web Security.md",
+    "Testing Spring Boot/Testing Repositories.md",
+    "Testing Spring Boot/Slices.md",
+    "Spring Services/@Service.md",
     "Resources",
     "Spring Services/Service Architecture.md",
-    "Spring Services/@Service.md",
     "Spring Boot Actuator/Actuator Endpoints.md",
     "Spring Security",
     "Spring Boot Actuator/Java Management Extensions (JMX).md",
@@ -174,17 +190,6 @@
     "Spring JPA/Querying.md",
     "Spring JPA/Spring JPA.md",
     "Spring JPA/SQL.md",
-    "Spring Boot Actuator/Configuration Endpoints.md",
-    "Spring Boot Actuator/Metric Endpoints.md",
-    "Testing Spring Boot/Testing Repositories.md",
-    "Spring Boot Configuration/Spring Security.md",
-    "Spring Boot Configuration/Configuration Properties.md",
-    "Spring Boot Configuration/Configuration Profiles.md",
-    "Spring Boot Configuration/Conditional Configuration.md",
-    "Testing Spring Boot/Testing Web Applications.md",
-    "Testing Spring Boot/Slices.md",
-    "Testing Spring Boot/Mocking and Spying Beans.md",
-    "Testing Spring Boot/Integration Testing.md",
     "Spring Services",
     "Spring Boot Maven",
     "Spring JPA",
